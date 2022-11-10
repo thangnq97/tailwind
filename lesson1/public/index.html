@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thanhthanhcute</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <!-- container -->
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-between items-center py-5">
+                <!-- logo -->
+                <div class="w-32 md:w-full z-20">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <!-- link -->
+                <ul id="menu"
+                    class="invisible z-20 fixed top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-gray-700 bg-opacity-90 md:bg-transparent md:h-auto md:flex-row md:justify-between md:static md:visible">
+                    <li class="m-12 md:m-0"><a
+                            class="text-white md:text-black hover:text-red-500 transition duration-400 ease-in "
+                            href="#">Home</a></li>
+                    <li class="m-12 md:m-0 "><a
+                            class="text-white md:text-black hover:text-red-500 transition duration-400 ease-in "
+                            href="#">Product</a></li>
+                    <li class="m-12 md:m-0 "><a
+                            class="text-white md:text-black hover:text-red-500 transition duration-400 ease-in "
+                            href="#">Faq</a></li>
+                    <li class="m-12 md:m-0 "><a
+                            class="text-white md:text-black hover:text-red-500 transition duration-400 ease-in "
+                            href="#">Contact</a></li>
+                </ul>
+                <!-- menu button -->
+                <div id="menu-btn" class="z-20 md:hidden cursor-pointer">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- banner -->
+    <section>
+        <div class="w-full bg-no-repeat bg-cover relative h-Custom" style="background-image: url('img/banner.png');">
+            <div
+                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white text-center">
+                <!-- tag -->
+                <p class="text-xl mb-5">Food app</p>
+                <!-- title -->
+                <h1 class="text-4xl mb-5 font-bold max-w-2xl md:leading-relaxed md:text-5xl">Why stay hungry
+                    when you can order
+                    form Bella Onojie</h1>
+                <!-- desc -->
+                <p class="text-xl mb-5 font-light">Download the bella onoje’s
+                    food app now on </p>
+                <!-- buttons -->
+                <div class="flex justify-center">
+                    <button
+                        class="mx-4 border border-transparent bg-red-500 px-10 py-3 rounded-full hover:bg-transparent hover:border-white transition-all">Playstore</button>
+                    <button
+                        class="mx-4 border border-white bg-transparent px-10 py-3 rounded-full hover:bg-red-500 hover:border-transparent transition-all">Appstore</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- app images -->
+    <section class="relative">
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-2/3 -translate-y-1/4">
+            <img src="img/item1.png" alt="" class="max-w-none w-screen pl-20 md:w-auto">
+        </div>
+    </section>
+    <!-- app steps -->
+    <section class="pt-96 mt-28 sm:pt-40-c md:mt-0">
+        <!-- container -->
+        <div class="container mx-auto px-4">
+            <hr class="w-4/5 mx-auto h-1/2 bg-gray-200 md:w-2/5">
+            <!-- title -->
+            <h2 class="text-center text-4xl font-semibold py-10">How the app works</h2>
+            <!-- step1 -->
+            <div class="flex flex-col justify-evenly items-center py-10 md:flex-row ">
+                <div class="text-center mb-10">
+                    <img src="img/item2.png" alt="">
+                </div>
+                <div class="text-center md:text-left">
+                    <!-- tag -->
+                    <span class="text-red-500 font-semibold ">Create an account</span>
+                    <!-- title -->
+                    <h2 class="text-4xl text-blue-600 max-w-md leading-relaxed py-5">Create/login to an existing
+                        account to get started</h2>
+                    <!-- desc -->
+                    <p class="text-xl text-gray-500 font-light max-w-sm mx-auto md:mx-0">An account is created with your
+                        email
+                        and a desired password</p>
+                </div>
+            </div>
+
+            <!-- step2 -->
+            <div class="flex flex-col justify-evenly items-center py-10 md:flex-row ">
+                <div class="text-center mb-10 md:order-2">
+                    <img src="img/item3.png" alt="">
+                </div>
+                <div class="text-center md:text-left md:order-1">
+                    <!-- tag -->
+                    <span class="text-red-500 font-semibold ">Explore varieties</span>
+                    <!-- title -->
+                    <h2 class="text-4xl text-blue-600 max-w-md leading-relaxed py-5">Shop for your favorites
+                        meal as e dey hot.</h2>
+                    <!-- desc -->
+                    <p class="text-xl text-gray-500 font-light max-w-sm mx-auto md:mx-0">Shop for your favorite meals or
+                        drinks
+                        and enjoy while doing it.</p>
+                </div>
+            </div>
+
+            <!-- step3 -->
+            <div class="flex flex-col justify-evenly items-center py-10 md:flex-row ">
+                <div class="text-center mb-10">
+                    <img src="img/item4.png" alt="">
+                </div>
+                <div class="text-center md:text-left">
+                    <!-- tag -->
+                    <span class="text-red-500 font-semibold ">Checkout</span>
+                    <!-- title -->
+                    <h2 class="text-4xl text-blue-600 max-w-md leading-relaxed py-5">When you done check out
+                        and get it delivered.</h2>
+                    <!-- desc -->
+                    <p class="text-xl text-gray-500 font-light max-w-sm mx-auto md:mx-0">When you done check out and get
+                        it
+                        delivered with ease.</p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- download -->
+    <section>
+        <!-- background -->
+        <div class="relative w-full h-Custom bg-no-repeat bg-cover" style="background-image: url('img/banner2.png');">
+            <div
+                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center z-10">
+                <!-- title -->
+                <h2 class="text-4xl mb-5 font-bold max-w-2xl md:leading-relaxed md:text-5xl">Download the app now.</h2>
+                <!-- desc -->
+                <p class="text-xl mb-5 font-light">Available on your favorite store. Start your premium experience now
+                </p>
+                <!-- buttons -->
+                <div class="flex justify-center">
+                    <button
+                        class="mx-4 border border-transparent bg-red-500 px-10 py-3 rounded-full hover:bg-transparent hover:border-white transition-all">Playstore</button>
+                    <button
+                        class="mx-4 border border-white bg-transparent px-10 py-3 rounded-full hover:bg-red-500 hover:border-transparent transition-all">Appstore</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section>
+        <!-- comtainer -->
+        <div class="container mx-auto px-2 flex justify-around items-center">
+            <!-- logo -->
+            <div class="w-32 md:w-auto">
+                <img src="img/logo.png" alt="">
+            </div>
+            <!-- contact -->
+            <p class="text-xs font-semibold md:text-xl md:font-semibold">Copywright 2020 .com</p>
+            <!-- icon -->
+            <div class="flex justify-between items-center gap-3 md:w-10">
+                <i class="fa-solid fa-dove"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </section>
+    <!-- main script -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
